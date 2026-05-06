@@ -4,22 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Fitzandra Bower</title>
-   <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"> 
+     <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
 </head>
-<body>
 <header>
-    <fieldset id="welcome">
-        <h1>Welcome to My Portfolio</h1>
-   
+    <fieldset class="welcome">
+       
+         <h1 class="wavy-welcome>
+            <span>Welcome</span> 
+            <span>To</span> 
+            <span>My</span> 
+            <span>Portfolio</span> 
+            </h1>
+    </fieldset>
+
+    <fieldset class="nav-bar">
+        <h3>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </h3>
+    </fieldset>
+
 </header>
-
-    <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</fieldset>
-
+<body>
 <fieldset id="content">
     <section id="about">
         <h2>About Me</h2>
@@ -33,6 +44,6 @@
         <h2>Contact</h2>
         <p>You can reach me at this email address.</p>
     </section>
-</div>
+</fieldset>
 </body>
 </html>

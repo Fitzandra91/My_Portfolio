@@ -1,0 +1,70 @@
+
+//* colors used within the website to create easy change *//
+
+:root {
+    --primary-background: #0F172A;
+    --primary-accent: #22D3EE;
+    --secondary-accent: #4A90E2; 
+    --move-up: -20px;
+    --animation-speed: 0.5s;
+    --shadow-color: #aaa;
+
+}
+div.wavy {
+    height: 10vh;
+    margin: 0;
+    background-color: var(--primary-background);
+    color: var(--secondary-accent);
+    font-family: 'Tangerine', serif;
+    text-shadow: 4px 4px 4px var(--shadow-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    width: 100%;
+    text-size-adjust: ;
+}
+fieldset.welcome {
+    margin: 100px;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--primary-background);
+    border-color: var(--secondary-accent);
+    border-style: dotted;
+    border-width: 2px;
+}
+div.nav-bar {
+    background-color: #333;
+    padding: 10px;
+    text-align: right;
+}       
+.about, .projects, .contact {
+    margin: 100px;
+    padding: 20px;
+    text-align: center;
+    color: tomato;
+}
+
+@media only screen and (max-width: 600px) {
+    .about, .projects, .contact {
+        margin: 50px;
+        padding: 10px;
+    }
+}
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+   .column {
+       width: 50%;
+   }
+}
+/* On screens that are 600px wide or less, make the columns stack on top of each other */
+@media screen and (max-width: 600px) {
+   .column {
+       width: 100%;
+   }
+}
