@@ -20,7 +20,7 @@
     </ul>
 </fieldset>
 
-<div id="content">
+<fieldset id="content">
     <section id="about">
         <h2>About Me</h2>
         <p>This is a brief description of myself and my background.</p>
