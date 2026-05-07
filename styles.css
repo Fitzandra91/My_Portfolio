@@ -1,7 +1,8 @@
 
+
 //* colors used within the website to create easy change *//
 
-:root {
+.root{
     --primary-background: #0F172A;
     --primary-accent: #22D3EE;
     --secondary-accent: #4A90E2; 
@@ -11,9 +12,13 @@
     --paragraph-color: hsl(240, 100%,);
     }
 
+* {
+    margin: auto;
+    padding: revert;
+}
 /* WAVEING WELCOME SIGN */  
 header {
-    height: 10vh;
+    height: 20vh;
     margin: 0;                                                                                                               
     background-color: var(--primary-background);
     color: var(--secondary-accent);
@@ -59,9 +64,10 @@ header {
     height: 100vh;
     width: 100%;
     text-size-adjust:  2rem;
-    background-color: var(--primary-background);
+    background-image: -moz-radial-gradient();
     border-color: var(--secondary-accent);
     color: var(--primary-accent);
+
 }
 
 fieldset.welcome {              /* welcome message box margin and design */
@@ -73,17 +79,20 @@ fieldset.welcome {              /* welcome message box margin and design */
    }
 
 fieldset.nav-bar {                  /* menu bar */
-    background-color: #333;
-    padding: 10px;
+    background-color: rgba(68, 68, 85, 80%);
+   
+    padding: 30px;
     justify-content: center;   /* Optional: centers items horizontally */
     display: flex;             /* Aligns items side by side */
-
+    text-align: center;
+    ocupancy: 
 } 
 
 ul {
   list-style-type: none;
     display: flex;
     gap: 200px;
+    justify-items: left;
     
 }
 
@@ -91,27 +100,18 @@ ul:before {
     transform-style: 
 }
 
-ul li:{ justify-content: center;   /* Optional: centers items horizontally */
-       
-      
-        
 
-}
-   
 
 ul li:hover{
     transform: scale(2.0);          /*pop effect on menu */
     transition: 4s;                    /* effect time frame */
- 
-  
-
 }
 
 .box {
     color: #1c3149;
     width: 200px;
     height: 200px;
-    list-style-position: center;
+   
  }
 
  .inform {            /* ABOUT ME PROJECT AND CONTACT paragrams app EDIT TAB */
@@ -120,6 +120,7 @@ ul li:hover{
  }
 
 
+}
 
 @media only screen and (max-width: 600px) {
     .about, .projects, .contact {
@@ -131,11 +132,5 @@ ul li:hover{
 @media screen and (max-width: 992px) {
    .column {
        width: 50%;
-   }
-}
-/* On screens that are 600px wide or less, make the columns stack on top of each other */
-@media screen and (max-width: 600px) {
-   .column {
-       width: 100%;
    }
 }

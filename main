@@ -38,6 +38,7 @@
         <div class="box" id="projects">
             <h2>Projects</h2>
             <p class="inform" >Here are some of the projects I've worked on.</p>
+           
         </div>
         <div class="box" id="contact">
             <h2>Contact</h2>
