@@ -8,42 +8,42 @@
      <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Tangerine">
 </head>
-<header>
-    <fieldset class="welcome">
-       
-         <h1 class="wavy-welcome>
-            <span>Welcome</span> 
-            <span>To</span> 
-            <span>My</span> 
-            <span>Portfolio</span> 
-            </h1>
-    </fieldset>
-
-    <fieldset class="nav-bar">
-        <h3>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </h3>
-    </fieldset>
-
-</header>
 <body>
-<fieldset id="content">
-    <section id="about">
-        <h2>About Me</h2>
-        <p>This is a brief description of myself and my background.</p>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>Here are some of the projects I've worked on.</p>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>You can reach me at this email address.</p>
-    </section>
-</fieldset>
+    <header>
+        <fieldset class="welcome">
+            <h1 class="wavy-welcome">
+                <span>Welcome</span> 
+                <span>To</span> 
+                <span>My</span> 
+                <span>Portfolio</span> 
+            </h1>
+        </fieldset>
+    </header>
+        <fieldset class="nav-bar">
+            <h3>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </h3>
+        </fieldset>
+
+    
+
+    <fieldset id="content">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>This is a brief description of myself and my background.</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Here are some of the projects I've worked on.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>You can reach me at this email address.</p>
+        </section>
+    </fieldset>
 </body>
 </html>

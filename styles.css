@@ -8,47 +8,89 @@
     --move-up: -20px;
     --animation-speed: 0.5s;
     --shadow-color: #aaa;
-
 }
-div.wavy {
+
+
+header {
     height: 10vh;
-    margin: 0;
+    margin: 0;                                                                                                               
     background-color: var(--primary-background);
     color: var(--secondary-accent);
     font-family: 'Tangerine', serif;
     text-shadow: 4px 4px 4px var(--shadow-color);
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;}
+    
+    .wavy-welcome span { 
+    display: inline-block;
+    font-size: 4rem;
+    animation: wave 6s ease-in-out infinite;
+    }  
+    .wavy-welcome span:nth-child(1) {
+    animation-delay: 0s;
+    }
+    .wavy-welcome span:nth-child(2) {
+    animation-delay: 1s;
+    }
+    .wavy-welcome span:nth-child(3) {
+    animation-delay:  2s;
+ 
+    }
+    .wavy-welcome span:nth-child(4) {
+    animation-delay:  3s;
+ 
+    }
+    @keyframes wave {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {transform: translateY(-20px);
+
+    }
 }
+
+
 
 
 .body {
     font-family: Arial, sans-serif;
     height: 100vh;
     width: 100%;
-    text-size-adjust: ;
+    text-size-adjust:  2rem;
+    background-color: var(--primary-background);
+    border-color: var(--secondary-accent);
+    color: var(--primary-accent);
 }
+
 fieldset.welcome {
     margin: 100px;
     padding: 20px;
     text-align: center;
-    background-color: var(--primary-background);
-    border-color: var(--secondary-accent);
     border-style: dotted;
     border-width: 2px;
-}
-div.nav-bar {
+   }
+
+fieldset.nav-bar {
     background-color: #333;
     padding: 10px;
-    text-align: right;
-}       
-.about, .projects, .contact {
-    margin: 100px;
-    padding: 20px;
-    text-align: center;
-    color: tomato;
+    justify-content: center;   /* Optional: centers items horizontally */
+    list-style-type: none;   /* Removes bullet points */
+    gap: 20px;                 /* Adds space between items */
+    display: flex;             /* Aligns items side by side */
+
+} 
+
+
+ul li:hover{
+    transform: scale(2.0);
+    transition: 4s;
+  
+
 }
+
+
+
 
 @media only screen and (max-width: 600px) {
     .about, .projects, .contact {
