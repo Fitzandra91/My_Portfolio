@@ -29,21 +29,21 @@
             </h3>
         </fieldset>
 
-    
-
     <fieldset id="content">
-        <section id="about">
+        <div class="container">
+        <div class="box" id="about">
             <h2>About Me</h2>
-            <p>This is a brief description of myself and my background.</p>
-        </section>
-        <section id="projects">
+            <p class="inform">This is a brief description of myself and my background.</p>
+        </div>
+        <div class="box" id="projects">
             <h2>Projects</h2>
-            <p>Here are some of the projects I've worked on.</p>
-        </section>
-        <section id="contact">
+            <p class="inform" >Here are some of the projects I've worked on.</p>
+        </div>
+        <div class="box" id="contact">
             <h2>Contact</h2>
-            <p>You can reach me at this email address.</p>
-        </section>
+            <p class="inform">You can reach me at this email address.</p>
+        </div>
+        </div>
     </fieldset>
 </body>
 </html>

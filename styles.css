@@ -8,9 +8,10 @@
     --move-up: -20px;
     --animation-speed: 0.5s;
     --shadow-color: #aaa;
+    --paragraph-color: hsl(240, 100%,);
 }
 
-
+/* WAVEING WELCOME SIGN */  
 header {
     height: 10vh;
     margin: 0;                                                                                                               
@@ -63,32 +64,52 @@ header {
     color: var(--primary-accent);
 }
 
-fieldset.welcome {
+fieldset.welcome {              /* welcome message box margin and design */
     margin: 100px;
     padding: 20px;
     text-align: center;
-    border-style: dotted;
+    border-style: none;          /* box stye */
     border-width: 2px;
    }
 
-fieldset.nav-bar {
+fieldset.nav-bar {                  /* menu bar */
     background-color: #333;
     padding: 10px;
     justify-content: center;   /* Optional: centers items horizontally */
-    list-style-type: none;   /* Removes bullet points */
-    gap: 20px;                 /* Adds space between items */
     display: flex;             /* Aligns items side by side */
 
 } 
 
+ul {
+  list-style-type: none;
+}
+
+ul li:{ justify-content: center;   /* Optional: centers items horizontally */
+        flex-direction: row;
+        gap: 20px;                 /* Adds space between items */
+        
+
+}
+   
 
 ul li:hover{
-    transform: scale(2.0);
-    transition: 4s;
+    transform: scale(2.0);          /*pop effect on menu */
+    transition: 4s;                    /* effect time frame */
+ 
   
 
 }
 
+.box {
+    color: #1c3149;
+    width: 200px;
+    height: 200px;
+ }
+
+ .inform {            /* ABOUT ME PROJECT AND CONTACT paragrams app EDIT TAB */
+    color: var(--secondary-accent);
+
+ }
 
 
 
