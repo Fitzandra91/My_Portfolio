@@ -9,7 +9,7 @@
     --animation-speed: 0.5s;
     --shadow-color: #aaa;
     --paragraph-color: hsl(240, 100%,);
-}
+    }
 
 /* WAVEING WELCOME SIGN */  
 header {
@@ -82,11 +82,18 @@ fieldset.nav-bar {                  /* menu bar */
 
 ul {
   list-style-type: none;
+    display: flex;
+    gap: 200px;
+    
+}
+
+ul:before {
+    transform-style: 
 }
 
 ul li:{ justify-content: center;   /* Optional: centers items horizontally */
-        flex-direction: row;
-        gap: 20px;                 /* Adds space between items */
+       
+      
         
 
 }
@@ -104,6 +111,7 @@ ul li:hover{
     color: #1c3149;
     width: 200px;
     height: 200px;
+    list-style-position: center;
  }
 
  .inform {            /* ABOUT ME PROJECT AND CONTACT paragrams app EDIT TAB */
