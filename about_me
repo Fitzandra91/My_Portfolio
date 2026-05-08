@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Fitzandra</title>
+    
+</head>
+<body>
+   
+    <h1 class="aboutpg"> All About Me </h1>
+
+    <h3> Resume</h3>
+    <p> You may download my resume here</p>
+    |<div id="downloads">
+        <span> PDF</span>
+        <span> Word </span>
+
+       
+    </div>
+
+</body>
+</html> 

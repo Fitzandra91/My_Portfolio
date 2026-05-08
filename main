@@ -32,16 +32,20 @@
     <fieldset id="content">
         <div class="container">
         <div class="box" id="about">
-            <h2>About Me</h2>
+            <h2 class="ids"><a href="about_me"> About Me</a></h2>
+            <br>
             <p class="inform">This is a brief description of myself and my background.</p>
         </div>
-        <div class="box" id="projects">
-            <h2>Projects</h2>
+            <fieldset id="examples">
+            <div class="box" id="projects">
+            <h2 class="ids">Projects</h2>
+            <br>
             <p class="inform" >Here are some of the projects I've worked on.</p>
-           
-        </div>
+            </div>
+            </fieldset>
         <div class="box" id="contact">
-            <h2>Contact</h2>
+            <h2 class="ids">Contact</h2>
+            <br>
             <p class="inform">You can reach me at this email address.</p>
         </div>
         </div>
