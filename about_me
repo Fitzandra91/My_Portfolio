@@ -1,22 +1,24 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Fitzandra</title>
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Fitzandra</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-   
-    <h1 class="aboutpg"> All About Me </h1>
-
-    <h3> Resume</h3>
-    <p> You may download my resume here</p>
-    |<div id="downloads">
-        <span> PDF</span>
-        <span> Word </span>
-
-       
-    </div>
-
+<body class="about-page">
+  <header>
+    <h1 class="aboutpg">All About Me</h1>
+  </header>
+  <main class="about-content">
+    <section>
+      <h3>Resume</h3>
+      <p>You may download my resume here.</p>
+      <div id="downloads">
+        <span>PDF</span>
+        <span>Word</span>
+      </div>
+    </section>
+  </main>
 </body>
 </html> 

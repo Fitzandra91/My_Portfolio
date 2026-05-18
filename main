@@ -1,54 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Fitzandra Bower</title>
-    <link rel="stylesheet" href="styles.css"> 
-     <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Tangerine">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitzandra Bower | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
 </head>
 <body>
-    <header>
-        <fieldset class="welcome">
-            <h1 class="wavy-welcome">
-                <span>Welcome</span> 
-                <span>To</span> 
-                <span>My</span> 
-                <span>Portfolio</span> 
-            </h1>
-        </fieldset>
-    </header>
-        <fieldset class="nav-bar">
-            <h3>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </h3>
-        </fieldset>
-
-    <fieldset id="content">
-        <div class="container">
-        <div class="box" id="about">
-            <h2 class="ids"><a href="about_me"> About Me</a></h2>
-            <br>
-            <p class="inform">This is a brief description of myself and my background.</p>
-        </div>
-            <fieldset id="examples">
-            <div class="box" id="projects">
-            <h2 class="ids">Projects</h2>
-            <br>
-            <p class="inform" >Here are some of the projects I've worked on.</p>
-            </div>
-            </fieldset>
-        <div class="box" id="contact">
-            <h2 class="ids">Contact</h2>
-            <br>
-            <p class="inform">You can reach me at this email address.</p>
-        </div>
-        </div>
-    </fieldset>
+  <header>
+    <div class="welcome">
+      <h1 class="wavy-welcome">
+        <span>Welcome</span>
+        <span>To</span>
+        <span>My</span>
+        <span>Portfolio</span>
+      </h1>
+    </div>
+  </header>
+  <nav class="nav-bar">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <main id="content">
+    <div class="container">
+      <section class="box" id="about">
+        <h2 class="ids"><a href="about_me">About Me</a></h2>
+        <p class="inform">This is a brief description of myself and my background.</p>
+      </section>
+      <section class="box" id="projects">
+        <h2 class="ids">Projects</h2>
+        <p class="inform">Here are some of the projects I've worked on.</p>
+      </section>
+      <section class="box" id="contact">
+        <h2 class="ids">Contact</h2>
+        <p class="inform">You can reach me at this email address.</p>
+      </section>
+    </div>
+  </main>
 </body>
 </html>
